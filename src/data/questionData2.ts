@@ -1,16 +1,16 @@
 export const questionData = [
     {
         question: "Multiple individuals of the same species form?",
-        options: ["populations", "omorgont proportios", "biosphere", "communiite"],
+        options: ["populations", "emergent properties", "biosphere", "communities"],
         answer: "populations"
     },
 {
-        question: "Which of the folowing statements is false??",
-        options: ["Two of three domains contains eukaryotic organism.", "All of them are the corroct statements", "When medical researchers test the effectiveness of a new drug, they typically compare the new drug to a placebo.", "For a scientits study to be considored valid" , "the rascarchers usually conduct experiments or carefully observe the the natural world"],
+        question: "Which of the following statements is false??",
+        options: ["Two of three domains contains eukaryotic organism.", "All of them are the correct statements", "When medical researchers test the effectiveness of a new drug, they typically compare the new drug to a placebo.", "For a scientits study to be considored valid" , "the rascarchers usually conduct experiments or carefully observe the the natural world"],
         answer: "Two of three domains contains eukaryotic organism."
 },
 {
-        question: '"Your kidneys regulate the water balance in your body”This example indicates that ______ is the charecteristic of life?',
+        question: '"Your kidneys regulate the water balance in your body”This example indicates that ______ is the characteristic of life?',
         options: ["evolution", "homeostasis", "energy use", "organization"],
         answer: "homeostasis"
 },
@@ -75,9 +75,9 @@ export const questionData = [
         answer: "require; requires"
 },
 {
-        question: "Which of the folowing is correct regarding to ATP??",
-        options: ["All of them are corroct regarding to AlP.", "It is recycled using ADP and the phosphate.", "It can donate phosphate to change shape of the target molecules.", "It is the energy currency within cell."],
-        answer: "All of them are corroct regarding to AlP."
+        question: "Which of the following is correct regarding to ATP??",
+        options: ["All of them are correct regarding to AlP.", "It is recycled using ADP and the phosphate.", "It can donate phosphate to change shape of the target molecules.", "It is the energy currency within cell."],
+        answer: "All of them are correct regarding to AlP."
 },
 {
         question: "Which of the following is incorrect regarding to enzyme??",
@@ -85,9 +85,9 @@ export const questionData = [
         answer: "Catalase change hydrogen peroxide to water and hydrogen gas"
 },
 {
-        question: "Imagine that you place a drop of red tood coloring in a glass of water. The red color eventually spreads throughout the water. This example lustrated?",
+        question: "Imagine that you place a drop of red food coloring in a glass of water. The red color eventually spreads throughout the water. This example lustrated?",
         options: ["the active transport", "simple diffusion", "endocytosis", "hydrocytosis"],
-        answer: "endocytosis"
+        answer: "simple diffusion"
 },
 {
         question: "The amount of potassium ion concentration in the ceil is higher than that in the neighboring environment. Potasium ion could diffuse into the call through a/an?",
@@ -105,7 +105,7 @@ export const questionData = [
         answer: "glucose, NAD+"
 },
 {
-        question: "If the folowing resction occurred, which compound would be oxidized? Which compound would be reduced? C4H6O4 + FAD ----> C4H404 + FADH2",
+        question: "If the following reaction occurred, which compound would be oxidized? Which compound would be reduced? C4H6O4 + FAD ----> C4H404 + FADH2",
         options: ["C4H4O4, FADH2", "C4H4O4, C4H6O4", "FAD, C4H6O4", "C4H6O4 ,FAD"],
         answer: "C4H6O4 ,FAD"
 },
@@ -126,7 +126,7 @@ export const questionData = [
       },
     {
         question: 'Function of Rough ER is to ____________________.',
-        options: ["synthesize secretory protein", "break down cellular debris", "gerate ATP", "use sunlight to produce food for the cell"],
+        options: ["synthesize secretory protein", "break down cellular debris", "generate ATP", "use sunlight to produce food for the cell"],
         answer: "synthesize secretory protein"
       },
     {
