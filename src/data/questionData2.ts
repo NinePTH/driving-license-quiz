@@ -100,7 +100,7 @@ export const questionData = [
         answer: "exocytosis"
 },
 {
-        question: "In glyoclysis. . . is oxidized and .... ... Is reduced.?",
+        question: "In glycolysis. . . is oxidized and .... ... Is reduced.?",
         options: ["glucose, NAD+", "glucose, oxygen", "NAD+, glucose", "ATP ,ADP"],
         answer: "glucose, NAD+"
 },
