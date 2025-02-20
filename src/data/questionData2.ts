@@ -185,7 +185,7 @@ export const questionData = [
         answer: "hydrogen ions"
       },
     {
-        question: '_____________ is produced from nucleolus and sent out fromanucleus to cytoplasm through _____________',
+        question: '_____________ is produced from nucleolus and sent out from a nucleus to cytoplasm through _____________',
         options: ["Vesicles; nuclear pore", "Ribosome, vesicle","Lysosome, nuclear pore","Ribosome, nuclear pore"],
         answer: "Ribosome, nuclear pore"
       },
