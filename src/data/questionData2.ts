@@ -36,8 +36,8 @@ export const questionData = [
 },
 {
         question: "_____are monomers that form polymers called_____?",
-        options: ["Nucleotides; nucoloside", "Triglycerides; lIpids", "Nucleic acids; nuclotides", "Amino acids; protoins"],
-        answer: "Amino acids; protoins"
+        options: ["Nucleotides; nuceloside", "Triglycerides; lipids", "Nucleic acids; nuclotides", "Amino acids; proteins"],
+        answer: "Amino acids; proteins"
 },
 {
         question: "______contribute to the property of water caled ochesion-the tendency of water molocule to stick together?",
@@ -95,8 +95,8 @@ export const questionData = [
         answer: "active transport"
 },
 {
-        question: "Nourotransmitter is stored inside the smal sacs caled synaptic vesicles, and is reloased into the synaptic cleft of the synapso whon a vesicle fuses with the cell membrane. This process, which is known as?",
-        options: ["exocytosis", "omosis", "facilitated diffusion", "simple diffusion"],
+        question: "Neurotransmitter is stored inside the small sacs called synaptic vesicles, and is released into the synaptic cleft of the synapse when a vesicle fuses with the cell membrane. This process, which is known as _________________",
+        options: ["exocytosis", "osmosis", "facilitated diffusion", "simple diffusion"],
         answer: "exocytosis"
 },
 {
