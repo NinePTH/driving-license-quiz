@@ -111,7 +111,7 @@ export const questionData = [
 },
 {
         question: "What is the primary purpose of fermentation in cells?",
-        options: ["To restore NAD+", "To restore glucose", "To create athanol", "To create ATP in the absence of oxygen"],
+        options: ["To restore NAD+", "To restore glucose", "To create ethanol", "To create ATP in the absence of oxygen"],
         answer: "To restore NAD+"
 },
 {
