@@ -60,14 +60,14 @@ export const questionData = [
         answer: "potential"
 },
 {
-        question: "Which is the folowing is not the function of lipid?",
-        options: ["Body heat procervation", "Component in cell membrane", "Genetic inheritance", "Energy storage"],
+        question: "Which is the following is not the function of lipid?",
+        options: ["Body heat preservation", "Component in cell membrane", "Genetic inheritance", "Energy storage"],
         answer: "Genetic inheritance"
 },
 {
-        question: "Which is the folowing sentence is incorrect regarding to energy?",
-        options: ["Energy transformation aren't 100% efficient.", "The entropy of the univorse is decroasing", "Energy cannot be croatod or destroyod.", "Heat energy is disordered"],
-        answer: "The entropy of the univorse is decroasing"
+        question: "Which is the following sentence is incorrect regarding to energy?",
+        options: ["Energy transformation aren't 100% efficient.", "The entropy of the universe is decreasing", "Energy cannot be created or destroyed.", "Heat energy is disordered"],
+        answer: "The entropy of the universe is decreasing"
 },
 {
         question: "Building carbohydrates _____ energy; ATP synthesis _____ energy?",
