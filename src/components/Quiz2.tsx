@@ -36,7 +36,7 @@ const Quiz2: React.FC = () => {
 
   return (
     <div className="quiz">
-      <h1>Driving-License Quiz</h1>
+      <h1>Bio Quiz</h1>
       {!isStart ? (
         <button onClick={start}>Start</button>
       ) : complete ? (
