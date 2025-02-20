@@ -81,7 +81,7 @@ export const questionData = [
 },
 {
         question: "Which of the following is incorrect regarding to enzyme??",
-        options: ["Catalase change hydrogen peroxide to water and hydrogen gas", "Enzymes reduce the amount of activation enorgy required for the reactant to activate.", "pH, salt concentration and temperature have offoct on onzymatic activity", "All of them are correct regarding to enzyme"],
+        options: ["Catalase change hydrogen peroxide to water and hydrogen gas", "Enzymes reduce the amount of activation energy required for the reactant to activate.", "pH, salt concentration and temperature have offoct on onzymatic activity", "All of them are correct regarding to enzyme"],
         answer: "Catalase change hydrogen peroxide to water and hydrogen gas"
 },
 {
