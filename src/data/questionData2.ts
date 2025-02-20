@@ -5,8 +5,8 @@ export const questionData = [
         answer: "populations"
     },
 {
-        question: "Which of the following statements is false??",
-        options: ["Two of three domains contains eukaryotic organism.", "All of them are the correct statements", "When medical researchers test the effectiveness of a new drug, they typically compare the new drug to a placebo.", "For a scientits study to be considored valid" , "the rascarchers usually conduct experiments or carefully observe the the natural world"],
+        question: "Which of the following statements is false?",
+        options: ["Two of three domains contains eukaryotic organism.", "All of them are the correct statements", "When medical researchers test the effectiveness of a new drug, they typically compare the new drug to a placebo.", "For a scientist study to be considered valid, the researchers usually conduct experiments or carefully observe the the natural world"],
         answer: "Two of three domains contains eukaryotic organism."
 },
 {
