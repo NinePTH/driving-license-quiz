@@ -151,7 +151,7 @@ export const questionData = [
       },
     {
         question: 'Which is the following is the importance of apoptosis?',
-        options: ["It specify the protien production in the cells","It provides continuous supply of replacement","It involves during the development of multicellular organism","It provides addition copy of DNA molecule"],
+        options: ["It specify the protein production in the cells","It provides continuous supply of replacement","It involves during the development of multicellular organism","It provides addition copy of DNA molecule"],
         answer: "It involves during the development of multicellular organism"
       },
     {
