@@ -40,7 +40,7 @@ export const questionData = [
         answer: "Amino acids; proteins"
 },
 {
-        question: "______contribute to the property of water caled ochesion-the tendency of water molocule to stick together?",
+        question: "______contribute to the property of water called cohesion-the tendency of water molecule to stick together?",
         options: ["Hydrogen bond", "Adhesion", "Covalent bond", "Hydrophobic"],
         answer: "Hydrogen bond"
 },
@@ -50,7 +50,7 @@ export const questionData = [
         answer: "species"
 },
 {
-        question: "Which of the foilowing is formed by the linking of two amino acids?",
+        question: "Which of the following is formed by the linking of two amino acids?",
         options: ["an ionic bond", "a peptide bond", "a functional group", "a glycosidic bond"],
         answer: "a peptide bond"
 },
