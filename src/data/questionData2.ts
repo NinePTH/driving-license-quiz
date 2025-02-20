@@ -141,7 +141,7 @@ export const questionData = [
       },
     {
         question: 'Why is cell cycle control so important?',
-        options: ["None of them is correct.", "Because they ensure that metaphase always follows anaphase.", "Bause they determine how quickly a cell's DNA get copied.", "Because they help prevent cells with damaged DNA from dividing"],
+        options: ["None of them is correct.", "Because they ensure that metaphase always follows anaphase.", "Because they determine how quickly a cell's DNA get copied.", "Because they help prevent cells with damaged DNA from dividing"],
         answer: "Because they help prevent cells with damaged DNA from dividing"
       },
     {
