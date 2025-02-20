@@ -76,7 +76,7 @@ export const questionData = [
 },
 {
         question: "Which of the folowing is correct regarding to ATP??",
-        options: ["All of them are corroct regarding to AlP.", "It is rocyciod using ADP and the phosphate.", "It can donate phosphate to change shape of the target molecules.", "It is the energy currency within cell."],
+        options: ["All of them are corroct regarding to AlP.", "It is recycled using ADP and the phosphate.", "It can donate phosphate to change shape of the target molecules.", "It is the energy currency within cell."],
         answer: "All of them are corroct regarding to AlP."
 },
 {
