@@ -25,7 +25,7 @@ const Quiz2: React.FC = () => {
   }
 
   function handleAnswerSelection(answer: string) {
-    if (answer === shuffledQuestions[questionNumber].answer) {
+    if (answer.split(" ").join("") === shuffledQuestions[questionNumber].answer.split(" ").join("")) {
       if (questionNumber + 1 < shuffledQuestions.length) {
         setQuestionNumber((prev) => prev + 1);
       } else {
