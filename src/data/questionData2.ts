@@ -90,7 +90,7 @@ export const questionData = [
         answer: "simple diffusion"
 },
 {
-        question: "The amount of potassium ion concentration in the ceil is higher than that in the neighboring environment. Potasium ion could diffuse into the call through a/an?",
+        question: "The amount of potassium ion concentration in the ceil is higher than that in the neighboring environment. Potassium ion could diffuse into the call through a/an?",
         options: ["osmosis", "active transport", "endcytosis", "facilitated diffusion"],
         answer: "active transport"
 },
@@ -110,7 +110,7 @@ export const questionData = [
         answer: "C4H6O4 ,FAD"
 },
 {
-        question: "What is the primary purpose of formontation in cells?",
+        question: "What is the primary purpose of fermentation in cells?",
         options: ["To restore NAD+", "To restore glucose", "To create athanol", "To create ATP in the absence of oxygen"],
         answer: "To restore NAD+"
 },
