@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import questionData from "../data/questionData2";
+import questionData from "../data/MIC-M2";
 
 // Function to shuffle an array using Fisher-Yates algorithm
 function shuffleArray<T>(array: T[]): T[] {
@@ -11,7 +11,7 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
-const Quiz2: React.FC = () => {
+const MIC_Quiz: React.FC = () => {
   const [shuffledQuestions, setShuffledQuestions] = useState<typeof questionData>([]);
   const [questionNumber, setQuestionNumber] = useState<number>(0);
   const [isStart, setIsStart] = useState(false);
@@ -25,7 +25,10 @@ const Quiz2: React.FC = () => {
   }
 
   function handleAnswerSelection(answer: string) {
-    if (answer.split(" ").join("") === shuffledQuestions[questionNumber].answer.split(" ").join("")) {
+    if (
+      answer.split(" ").join("") ===
+      shuffledQuestions[questionNumber].answer.split(" ").join("")
+    ) {
       if (questionNumber + 1 < shuffledQuestions.length) {
         setQuestionNumber((prev) => prev + 1);
       } else {
@@ -44,14 +47,28 @@ const Quiz2: React.FC = () => {
       ) : (
         <>
           <h2>
-            Question {questionNumber + 1}: <span>{shuffledQuestions[questionNumber].question}</span>
+            Question {questionNumber + 1}:{" "}
+            <span>{shuffledQuestions[questionNumber].question}</span>
           </h2>
+          {shuffledQuestions[questionNumber].image && (
+            <img
+              src={shuffledQuestions[questionNumber].image}
+              alt="Question illustration"
+              className="questionImage"
+            />
+          )}
           <div className="options">
-            {shuffledQuestions[questionNumber].options.map((option: string, index: number) => (
-              <button className="answer-button" key={index} onClick={() => handleAnswerSelection(option)}>
-                {option}
-              </button>
-            ))}
+            {shuffledQuestions[questionNumber].options.map(
+              (option: string, index: number) => (
+                <button
+                  className="answer-button"
+                  key={index}
+                  onClick={() => handleAnswerSelection(option)}
+                >
+                  {option}
+                </button>
+              )
+            )}
           </div>
         </>
       )}
@@ -59,4 +76,4 @@ const Quiz2: React.FC = () => {
   );
 };
 
-export default Quiz2;
+export default MIC_Quiz;

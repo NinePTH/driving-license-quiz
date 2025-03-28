@@ -1,12 +1,12 @@
 // import { useState } from 'react'
 // import Quiz from "./components/Quiz";
-import Quiz2 from "./components/Quiz2";
+import MIC_Quiz from "./components/MIC-Quiz";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Quiz2 />
+      <MIC_Quiz />
       <Footer />
     </>
   );
