@@ -15,6 +15,7 @@ export const questionData = [
       "Errors in chromosome segregation can lead to genetic disorders.",
     ],
     answer: "Chromosome segregation can produce recombinant chromatids.",
+    image: "",
   },
   {
     question:

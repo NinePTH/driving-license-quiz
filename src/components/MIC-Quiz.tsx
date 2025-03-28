@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import questionData from "../data/MIC-M2";
 
 // Function to shuffle an array using Fisher-Yates algorithm
@@ -17,6 +17,15 @@ const MIC_Quiz: React.FC = () => {
   const [isStart, setIsStart] = useState(false);
   const [complete, setComplete] = useState(false);
 
+  // Use useMemo to create a memoized version of shuffled options for each question
+  const shuffledOptions = useMemo(() => {
+    return shuffledQuestions.map(question => ({
+      ...question,
+      shuffledOptionsList: shuffleArray(question.options),
+      correctOptionIndex: question.options.indexOf(question.answer)
+    }));
+  }, [shuffledQuestions]);
+
   function start() {
     setShuffledQuestions(shuffleArray(questionData)); // Shuffle questions at the start
     setQuestionNumber(0);
@@ -24,12 +33,14 @@ const MIC_Quiz: React.FC = () => {
     setIsStart(true);
   }
 
-  function handleAnswerSelection(answer: string) {
+  function handleAnswerSelection(selectedOption: string) {
+    const currentQuestion = shuffledOptions[questionNumber];
+    
     if (
-      answer.split(" ").join("") ===
-      shuffledQuestions[questionNumber].answer.split(" ").join("")
+      selectedOption.split(" ").join("") ===
+      currentQuestion.answer.split(" ").join("")
     ) {
-      if (questionNumber + 1 < shuffledQuestions.length) {
+      if (questionNumber + 1 < shuffledOptions.length) {
         setQuestionNumber((prev) => prev + 1);
       } else {
         setComplete(true);
@@ -48,17 +59,17 @@ const MIC_Quiz: React.FC = () => {
         <>
           <h2>
             Question {questionNumber + 1}:{" "}
-            <span>{shuffledQuestions[questionNumber].question}</span>
+            <span>{shuffledOptions[questionNumber].question}</span>
           </h2>
-          {shuffledQuestions[questionNumber].image && (
+          {shuffledOptions[questionNumber].image && (
             <img
-              src={shuffledQuestions[questionNumber].image}
+              src={shuffledOptions[questionNumber].image}
               alt="Question illustration"
               className="questionImage"
             />
           )}
           <div className="options">
-            {shuffledQuestions[questionNumber].options.map(
+            {shuffledOptions[questionNumber].shuffledOptionsList.map(
               (option: string, index: number) => (
                 <button
                   className="answer-button"
