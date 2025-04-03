@@ -283,7 +283,7 @@ export const questionData = [
       "75%",
       "100%"
     ],
-    answer: "75%",
+    answer: "50%",
     image: "/images/q4.png"
   },
   {
