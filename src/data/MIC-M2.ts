@@ -10,7 +10,7 @@ export const questionData = [
     question: "What is not considering as Mendelian laws?",
     options: [
       "Chromosome segregation can produce recombinant chromatids.",
-      "Chromosome segregation occurs during mitosis and meiosis.",
+      "Chromosome segregation occurs during meiosis.",
       "Chromosome segregation ensures equal distribution of genetic material.",
       "Errors in chromosome segregation can lead to genetic disorders.",
     ],
