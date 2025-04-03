@@ -283,7 +283,8 @@ export const questionData = [
       "75%",
       "100%"
     ],
-    answer: "75%"
+    answer: "75%",
+    image: "/images/q4.png"
   },
   {
     question: "A group of researchers are studying stem length inheritance in the Asian pigeonwings plant (Clitoria ternatea L.). They obtain a tall pea plant of unknown ancestry, allow it to self-pollinate, and collect 80 of its seeds. After planting the seeds, they observe the growth of 61 tall plants and 19 dwarf plants. Which of the following best explains the stem lengths seen in the offspring?",
@@ -293,7 +294,8 @@ export const questionData = [
       "Tall stem length is a dominant trait.",
       "Dwarf stem length is a dominant trait."
     ],
-    answer: "Dwarf stem length is a recessive trait."
+    answer: "Dwarf stem length is a recessive trait.",
+    image: "/images/q7.png"
   },
   {
     question: "The data above represent the results of three different crosses in which a single gene determines whether a certain organism is red or green. Which of the following best describes the mechanism of inheritance of this single gene?",
@@ -303,7 +305,8 @@ export const questionData = [
       "The allele for red is an autosomal recessive allele because a 2:2 phenotypic ratio is observed in cross 1.",
       "The allele for red is X-linked because a 3:1 ratio is observed."
     ],
-    answer: "The allele for green is an autosomal recessive allele because a 3:1 phenotypic ratio of red-to-green is observed in cross 1."
+    answer: "The allele for green is an autosomal recessive allele because a 3:1 phenotypic ratio of red-to-green is observed in cross 1.",
+    image: "/images/q7.png"
   },
   {
     question: "The phylogenetic tree of human evolution as follows is used for information. What is the most recent common ancestor between Homo neanderthalensis, H. heidelbergensis, and H. sapiens?",
