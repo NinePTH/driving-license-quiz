@@ -295,7 +295,7 @@ export const questionData = [
       "Dwarf stem length is a dominant trait."
     ],
     answer: "Dwarf stem length is a recessive trait.",
-    image: "/images/q8.png"
+    image: "/images/q7.png"
   },
   {
     question: "The data above represent the results of three different crosses in which a single gene determines whether a certain organism is red or green. Which of the following best describes the mechanism of inheritance of this single gene?",
