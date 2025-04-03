@@ -283,7 +283,7 @@ export const questionData = [
       "75%",
       "100%"
     ],
-    answer: "50%"
+    answer: "75%"
   },
   {
     question: "A group of researchers are studying stem length inheritance in the Asian pigeonwings plant (Clitoria ternatea L.). They obtain a tall pea plant of unknown ancestry, allow it to self-pollinate, and collect 80 of its seeds. After planting the seeds, they observe the growth of 61 tall plants and 19 dwarf plants. Which of the following best explains the stem lengths seen in the offspring?",
