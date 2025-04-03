@@ -295,7 +295,7 @@ export const questionData = [
       "Dwarf stem length is a dominant trait."
     ],
     answer: "Dwarf stem length is a recessive trait.",
-    image: "/images/q7.png"
+    image: "/images/q8.png"
   },
   {
     question: "The data above represent the results of three different crosses in which a single gene determines whether a certain organism is red or green. Which of the following best describes the mechanism of inheritance of this single gene?",
@@ -306,7 +306,7 @@ export const questionData = [
       "The allele for red is X-linked because a 3:1 ratio is observed."
     ],
     answer: "The allele for green is an autosomal recessive allele because a 3:1 phenotypic ratio of red-to-green is observed in cross 1.",
-    image: "/images/q7.png"
+    image: "/images/q8.png"
   },
   {
     question: "The phylogenetic tree of human evolution as follows is used for information. What is the most recent common ancestor between Homo neanderthalensis, H. heidelbergensis, and H. sapiens?",
