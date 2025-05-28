@@ -58,7 +58,7 @@ const MIC_Quiz: React.FC = () => {
       ) : (
         <>
           <h2>
-            Question {questionNumber + 1}:{" "}
+            Question {questionNumber + 1}/{shuffledQuestions.length}:{" "}
             <span>{shuffledOptions[questionNumber].question}</span>
           </h2>
           {shuffledOptions[questionNumber].image && (
