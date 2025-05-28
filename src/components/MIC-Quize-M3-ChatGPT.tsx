@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import questionData from "../data/MIC-M3";
+import questionData from "../data/MIC-M3-ChatGPT";
 
 // Function to shuffle an array using Fisher-Yates algorithm
 function shuffleArray<T>(array: T[]): T[] {
@@ -11,7 +11,9 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
-const MIC_Quiz: React.FC = () => {
+
+
+const MIC_Quiz_M3_ChatGPT: React.FC = () => {
   const [shuffledQuestions, setShuffledQuestions] = useState<typeof questionData>([]);
   const [questionNumber, setQuestionNumber] = useState<number>(0);
   const [isStart, setIsStart] = useState(false);
@@ -87,4 +89,4 @@ const MIC_Quiz: React.FC = () => {
   );
 };
 
-export default MIC_Quiz;
+export default MIC_Quiz_M3_ChatGPT;
