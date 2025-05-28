@@ -608,7 +608,7 @@ export const questionData = [
         "dendrites; cell body",
         "cell body; dendrites"
     ],
-    answer: "dendrites; cell body"
+    answer: "axon; dendrites"
 },
 {
     question: "In several neurological diseases, axons lose their insulating myelin sheath. What is the consequence of this loss?",

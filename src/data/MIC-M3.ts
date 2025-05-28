@@ -7,7 +7,7 @@ const questionData = [
         "dendrites; cell body",
         "cell body; dendrites"
     ],
-    answer: "dendrites; cell body",
+    answer: "axon; dendrites",
     image: ""
 },
 {
