@@ -11,20 +11,20 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
-
-
 const MIC_Quiz_M3_Past: React.FC = () => {
-  const [shuffledQuestions, setShuffledQuestions] = useState<typeof questionData>([]);
+  const [shuffledQuestions, setShuffledQuestions] = useState<
+    typeof questionData
+  >([]);
   const [questionNumber, setQuestionNumber] = useState<number>(0);
   const [isStart, setIsStart] = useState(false);
   const [complete, setComplete] = useState(false);
 
   // Use useMemo to create a memoized version of shuffled options for each question
   const shuffledOptions = useMemo(() => {
-    return shuffledQuestions.map(question => ({
+    return shuffledQuestions.map((question) => ({
       ...question,
       shuffledOptionsList: shuffleArray(question.options),
-      correctOptionIndex: question.options.indexOf(question.answer)
+      correctOptionIndex: question.options.indexOf(question.answer),
     }));
   }, [shuffledQuestions]);
 
@@ -37,7 +37,7 @@ const MIC_Quiz_M3_Past: React.FC = () => {
 
   function handleAnswerSelection(selectedOption: string) {
     const currentQuestion = shuffledOptions[questionNumber];
-    
+
     if (
       selectedOption.split(" ").join("") ===
       currentQuestion.answer.split(" ").join("")
@@ -56,7 +56,16 @@ const MIC_Quiz_M3_Past: React.FC = () => {
       {!isStart ? (
         <button onClick={start}>Start</button>
       ) : complete ? (
-        <h2 style={{ fontWeight: 500 }}>You have completed the quiz</h2>
+        <div style={{ width: "100%" }}>
+          <h2 style={{ fontWeight: 500, marginBottom: "1rem" }}>You have completed the quiz</h2>
+          <button
+            onClick={() => {
+              location.reload();
+            }}
+          >
+            Back to quiz selection
+          </button>
+        </div>
       ) : (
         <>
           <h2>

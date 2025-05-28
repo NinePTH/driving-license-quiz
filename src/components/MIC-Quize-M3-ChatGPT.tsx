@@ -56,7 +56,10 @@ const MIC_Quiz_M3_ChatGPT: React.FC = () => {
       {!isStart ? (
         <button onClick={start}>Start</button>
       ) : complete ? (
-        <h2 style={{ fontWeight: 500 }}>You have completed the quiz</h2>
+        <div>
+          <h2 style={{ fontWeight: 500 }}>You have completed the quiz</h2>
+          <button onClick={() => {location.reload()}}>Back to quiz selection</button>
+        </div>
       ) : (
         <>
           <h2>

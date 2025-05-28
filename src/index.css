@@ -128,6 +128,9 @@ footer {
         width: 40%;
         font-size: 1rem;
     }
+    .select-quiz-button {
+        margin-top: 0.5rem;
+    }
 
     .options {
         gap: 1rem;
