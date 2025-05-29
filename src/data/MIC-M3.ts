@@ -4,10 +4,11 @@ const questionData = [
     options: [
         "axon; cell body",
         "axon; dendrites",
+        "dendrites; axon"; 
         "dendrites; cell body",
         "cell body; dendrites"
     ],
-    answer: "axon; dendrites",
+    answer: "dendrites; axon",
     image: ""
 },
 {
