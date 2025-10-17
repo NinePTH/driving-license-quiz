@@ -52,7 +52,7 @@ const OS_Exam_M1: React.FC = () => {
 
   return (
     <div className="quiz">
-      <h1>OS Exam M1</h1>
+      <h1>OS Exam 1</h1>
       {!isStart ? (
         <button onClick={start}>Start</button>
       ) : complete ? (
