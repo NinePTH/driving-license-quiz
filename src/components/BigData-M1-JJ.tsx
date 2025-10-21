@@ -13,7 +13,7 @@ function shuffleArray<T>(array: T[]): T[] {
 
 
 
-const OS_Exam_M1: React.FC = () => {
+const BigData_M1_JJ: React.FC = () => {
   const [shuffledQuestions, setShuffledQuestions] = useState<typeof questionData>([]);
   const [questionNumber, setQuestionNumber] = useState<number>(0);
   const [isStart, setIsStart] = useState(false);
@@ -92,4 +92,4 @@ const OS_Exam_M1: React.FC = () => {
   );
 };
 
-export default OS_Exam_M1;
+export default BigData_M1_JJ;
