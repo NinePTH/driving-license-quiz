@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import questionData from "../data/BigData-M1-JJ";
+import questionData from "../data/BigData-M2-JJ";
 
 // Function to shuffle an array using Fisher-Yates algorithm
 function shuffleArray<T>(array: T[]): T[] {
@@ -13,7 +13,7 @@ function shuffleArray<T>(array: T[]): T[] {
 
 
 
-const BigData_M1_JJ: React.FC = () => {
+const BigData_M2_JJ: React.FC = () => {
   const [shuffledQuestions, setShuffledQuestions] = useState<typeof questionData>([]);
   const [questionNumber, setQuestionNumber] = useState<number>(0);
   const [isStart, setIsStart] = useState(false);
@@ -52,7 +52,7 @@ const BigData_M1_JJ: React.FC = () => {
 
   return (
     <div className="quiz">
-      <h1>BigData M1 (2019) JJ</h1>
+      <h1>BigData M2 (2019) JJ</h1>
       {!isStart ? (
         <button onClick={start}>Start</button>
       ) : complete ? (
@@ -92,4 +92,4 @@ const BigData_M1_JJ: React.FC = () => {
   );
 };
 
-export default BigData_M1_JJ;
+export default BigData_M2_JJ;
