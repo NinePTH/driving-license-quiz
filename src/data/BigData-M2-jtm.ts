@@ -72,12 +72,12 @@ export const questionData = [
   {
     question: "Which is not true about the differences between external and internal tables in Hive?",
     options: [
-      "Dropping an external table deletes both data and metadata",
-      "Internal tables store data in the warehouse directory",
-      "External tables only delete metadata when dropped",
-      "Internal tables are managed by Hive"
+      "Idk",
+      "Idk",
+      "Idk",
+      "Idk"
     ],
-    answer: "Dropping an external table deletes both data and metadata"
+    answer: "There are two correct answers"
   },
   {
     question: "Which statement is not true about Hive and Impala?",
@@ -298,9 +298,9 @@ export const questionData = [
     question: "What type of data flow is shown in this picture (by definition of Flume)?",
     options: [
       "Multi-hop Flow",
-      "idk",
-      "idk",
-      "idk"
+      "Simple Flow",
+      "Consolidated Flow",
+      "Fan-in Flow"
     ],
     answer: "Multi-hop Flow",
     image: "/images/q31_BigData-M1_jtm.png"
@@ -333,7 +333,8 @@ export const questionData = [
       "50",
       "500"
     ],
-    answer: "200"
+    answer: "200",
+    image: "/images/q34-BigData-M1_jtm.png"
   },
   {
     question: "What does the crontab line '5 5 * * * /opt/getdata.sh' mean?",
