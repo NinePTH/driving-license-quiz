@@ -72,7 +72,7 @@ export const questionData = [
   {
     question: "Which is not true about the differences between external and internal tables in Hive?",
     options: [
-      "Idk",
+      "There are two correct answers",
       "Idk",
       "Idk",
       "Idk"
@@ -117,12 +117,12 @@ export const questionData = [
   {
     question: "Which answer is not true about actions and transformations in Spark?",
     options: [
-      "Transformations execute immediately",
-      "Actions trigger computation",
-      "Transformations are lazy operations",
-      "Actions return values to the driver"
+      "There are two correct answers",
+      "idk",
+      "idk",
+      "idk"
     ],
-    answer: "Transformations execute immediately"
+    answer: "There are two correct answers"
   },
   {
     question: "Which answer is true about the DataFrame in Spark?",
