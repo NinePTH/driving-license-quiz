@@ -303,7 +303,7 @@ export const questionData = [
       "Fan-in Flow"
     ],
     answer: "Multi-hop Flow",
-    image: "/images/q31_BigData-M1_jtm.png"
+    image: "/images/q31-BigData-M1_jtm.png"
   },
   {
     question: "What is incorrect about Flume?",
