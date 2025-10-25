@@ -106,6 +106,21 @@ footer {
     font-size: 0.5rem;
 }
 
+a {
+  text-decoration: none; /* Removes the underline */
+  color: black; /* Sets the link color to black (or any other color) */
+}
+
+/* Optional: Styling for visited links */
+a:visited {
+  color: grey; /* Changes the color of visited links */
+}
+
+/* Optional: Styling for hover state */
+a:hover {
+  color: red; /* Changes the color when the mouse hovers over the link */
+}
+
   @media (max-width: 768px) {
     .quiz {
         margin: 0 2.75rem;
