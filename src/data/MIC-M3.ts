@@ -1,4 +1,4 @@
-const questionData = [
+export const questionData = [
     {
     question: "In a typical neuron, the __ receive(s) information and the __ communicate(s) that information to a neighboring cell.",
     options: [
