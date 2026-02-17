@@ -36,4 +36,24 @@ export const QUIZ_CONFIGS: QuizConfig[] = [
     title: "MIC M3 Past + ChatGPT",
     dataImport: () => import("../data/MIC-M3-MIX"),
   },
+  {
+    id: "ooad-w1",
+    title: "OOAD Mock Exam Week 1",
+    dataImport: () => import("../data/OOAD-W1"),
+  },
+  {
+    id: "ooad-w2",
+    title: "OOAD Mock Exam Week 2",
+    dataImport: () => import("../data/OOAD-W2"),
+  },
+  {
+    id: "ooad-w3",
+    title: "OOAD Mock Exam Week 3",
+    dataImport: () => import("../data/OOAD-W3"),
+  },
+  {
+    id: "ooad-w4",
+    title: "OOAD Mock Exam Week 4",
+    dataImport: () => import("../data/OOAD-W4"),
+  },
 ];
